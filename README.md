@@ -215,3 +215,7 @@ Deploy-Application.exe -DeploymentType "Uninstall" -DeployMode "Silent"
 - Operator: `Greater than or equal to`
 
 You're ready to test. The update installer has a "silent" mode, but it is not truly silent. Running it with the `/silent` parameter will hide the first screen, but the user still needs to click on a prompt to install the update when it's ready.
+
+When the update installer runs, it will prompt when it is ready to install.
+
+![Image](https://scsim4ges.blob.core.windows.net/guides/2024-05-15_09_05_13.jpg)
